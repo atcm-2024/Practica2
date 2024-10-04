@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,h2 {
+    font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+  }
+  
+  .clases{
+    font-size: 1em;
+    width: 56%;
+    background-color: #edeff0;
+    padding: 10px 15px;
+    border: 3px solid #d7dbdf;
+    border-right: none;
+    border-radius: .35em 0 0 .35em;
+    outline: none;
+  }
+
+  .PhotoDimension img:hover {
+    transform: scale(1.25);
+    object-fit: fit;
+  }
